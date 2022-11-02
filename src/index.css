@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Share:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+   font-family: 'Share', 'cursive', sans-serif;
+}
+
+.leading-sm {
+   @apply font-bold text-sm leading-[22px];
+}
+
+.member-card_avatar__circle {
+   @apply w-[54px] h-[54px]  border-2 border-[#485F8C] rounded-full absolute z-0;
+}
+
+.member-card_avatar__square {
+   @apply w-[42px] h-[42px] bg-[#576E9A] absolute z-10 -rotate-45;
+}
+
+.member-card__angle {
+   @apply border-8 border-t-0 border-transparent border-b-[16px] border-b-[#4F6591] absolute;
+}
