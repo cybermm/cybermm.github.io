@@ -1,14 +1,10 @@
 {
-   "name": "react-app",
    "private": true,
-   "version": "0.0.0",
-   "type": "module",
    "scripts": {
       "dev": "vite",
       "build": "vite build",
       "preview": "vite preview",
-      "lint": "eslint --max-warnings=0 src",
-      "serve": "json-server --watch db.json --port 5000"
+      "lint": "eslint --max-warnings=0 src"
    },
    "dependencies": {
       "react": "^18.2.0",
