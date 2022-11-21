@@ -1,12 +1,14 @@
-import React from 'react';
-import Team from './components/team/Team';
+import React from 'react'
+import Header from './components/header/Header'
+import Team from './components/team/Team'
 
 const App = () => {
-   return (
-      <div>
-         <Team />
-      </div>
-   );
-};
+    return (
+        <div>
+            <Header />
+            <Team />
+        </div>
+    )
+}
 
-export default App;
+export default App
