@@ -1,6 +1,7 @@
 import React from 'react'
 import AdmissionBtn from '../btn/AdmissionBtn'
 import AllInOneSvg from "../svg/allInOneSvg";
+import LinkBtn from "../btn/LinkBtn";
 
 const HeroSection = () => {
     return (
@@ -16,6 +17,7 @@ const HeroSection = () => {
                 <p className="text-[#ABB8D5] my-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu.</p>
                 <div className="flex flex-start space-x-5">
                     <AdmissionBtn title={'Team Admission'} />
+                    <LinkBtn title={"Lean More"} />
                 </div>
             </div>
         </div>
