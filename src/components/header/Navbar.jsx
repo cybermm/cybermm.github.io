@@ -13,7 +13,7 @@ const Navbar = () => {
                 <p className="text-lg md:text-xl font-bold text-[#FFFF78]">Myanmar Cyber Youth</p>
             </div>
             {/* navigation container */}
-            <div className="hidden lg:flex justify-end space-x-10">
+            <div className="lg:flex hidden justify-end space-x-10">
                 {/* nav */}
                 <ul className="flex items-center space-x-3">
                     {navigationData.map(({ id, name }) => (
